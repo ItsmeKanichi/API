@@ -4,7 +4,7 @@ require('dotenv').config()
 var cors = require('cors')
 const mongoose = require('mongoose');
 
-MONGODB_URL = 'mongodb+srv://nodejs:nodejsnodejsnodejs@cluster0.8zyok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+MONGODB_URL = 'mongodb+srv://an99685:8L8pQepXg3MxKcyg@cluster0.8zyok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 
 mongoose.connect(
   MONGODB_URL,
